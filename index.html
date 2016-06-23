@@ -1,50 +1,56 @@
-<!doctype html>
-<html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
 
-		<title>reveal.js</title>
+<title>ELGG Camp Italy / SBW 2016 - Economia solidale e Software Libero</title>
 
-		<link rel="stylesheet" href="css/reveal.css">
-		<link rel="stylesheet" href="css/theme/black.css">
+<meta name="description" content="What are the technology ethical choices at the basic of SocialBusinessWorld?">
+<meta name="author" content="Luca Ferroni">
 
-		<!-- Theme used for syntax highlighting of code -->
-		<link rel="stylesheet" href="lib/css/zenburn.css">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 
-		<!-- Printing and PDF exports -->
-		<script>
-			var link = document.createElement( 'link' );
-			link.rel = 'stylesheet';
-			link.type = 'text/css';
-			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
-			document.getElementsByTagName( 'head' )[0].appendChild( link );
-		</script>
-	</head>
-	<body>
-		<div class="reveal">
-			<div class="slides">
-				<section>Slide 1</section>
-				<section>Slide 2</section>
-			</div>
-		</div>
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 
-		<script src="lib/js/head.min.js"></script>
-		<script src="js/reveal.js"></script>
+<link rel="stylesheet" href="css/reveal.css">
+<link rel="stylesheet" href="css/theme/black.css" id="theme">
 
-		<script>
-			// More info https://github.com/hakimel/reveal.js#configuration
-			Reveal.initialize({
-				history: true,
+<link rel="stylesheet" href="lib/css/zenburn.css">
+<!-- Theme used for syntax highlighting of code -->
+<link rel="stylesheet" href="css/from-mte.css" id="theme">
 
-				// More info https://github.com/hakimel/reveal.js#dependencies
-				dependencies: [
-					{ src: 'plugin/markdown/marked.js' },
-					{ src: 'plugin/markdown/markdown.js' },
-					{ src: 'plugin/notes/notes.js', async: true },
-					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
-				]
-			});
-		</script>
-	</body>
-</html>
+<!-- Printing and PDF exports -->
+<script>
+    var link = document.createElement( 'link' );
+    link.rel = 'stylesheet';
+    link.type = 'text/css';
+    link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+    document.getElementsByTagName( 'head' )[0].appendChild( link );
+</script>
+
+<!--[if lt IE 9]>
+<script src="lib/js/html5shiv.js"></script>
+<![endif]-->
+</head><body><div class="barra"><div class="titolo">Scelte etiche di SocialBusinessWorld.org - economia solidale e software libero </div><div class="logo logo-sbw"></div></div><div class="barra bottom"><div class="logo logo-befair"></div><div class="titolo">Luca Ferroni @ferodafabriano - ELGG Camp Italy / SBW 2016</div><div class="hashtag">#elggsbw16</div></div><div class="reveal"><!-- Any section element inside of this container is displayed as a slide--><div class="slides"><section><h1>Scelte etiche di </h1><h2>socialbusinessworld.org</h2><br><h3>economia solidale e software libero</h3><!--br--><!--psmall Created by 
+    a(href="http://www.lucaferroni.it") Luca Ferroni 
+    span  / 
+    a(href="http://twitter.com/ferodafabriano") @ferodafabriano
+--></section><section data-background-transition="zoom" data-transition="convex" data-background="imgs/michele_and_I_and_juho.jpg"><h1>the SBWTECH team</h1></section><section data-background="imgs/juho.jpg" class="fullcover"><h1>Juho is there!</h1></section><section><h1>Etica di un software</h1><h3 class="fragment">pensato per le persone</h3><h3 class="fragment">organizzato per la partecipazione</h3><h3 class="fragment">rivolto ad un mondo migliore</h3></section><section><section><h2>What's your name?</h2><fragment><h3>aka: what's your service domain name?</h3><br><a href="#" class="navigate-down"><img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Down arrow"></a></fragment></section><section><h1>Social Business</h1><ol><li>Obiettivo risolvere uno o più problemi sociali</li><li>Autosostenibilità economica e finanziaria</li><li>I finanziatori devono rientrare del solo capitale investito</li><li>I profitti dell’impresa restano al suo interno per miglioramenti ed espansioni</li><li>Rispetto dell'ambiente e delle differenze</li><li>La forza lavoro dell’impresa riceve stipendi e salari di mercato con migliori condizioni lavorative</li><li>... Si fa con gioia!</li></ol><p><small>Fonte <a href="https://socialbusinessworld.org/pages/view/8969/che-cosa-e-un-social-business#.Vz1jbbOxVqg">socialbusinessworld.org</a></small></p></section><section><h1>Top Level Domain ".org"</h1><p>Per rivolgersi alla comunità (community)</p><p><small>Fonte <a href="http://archive.icann.org/en/tlds/org/applications/neustar/08.html">archive.icann.org/en/tlds/org/applications/neustar/08.html</a></small></p><br><a href="#/2"><img width="178" height="238" data-src="https://s3.amazonaws.com/hakim-static/reveal-js/arrow.png" alt="Up arrow" style="transform: rotate(180deg); -webkit-transform: rotate(180deg);"></a></section></section><section data-background="./imgs/data-servers.png"><section><h1>Where do you live? </h1><h3>aka: where is your server located?</h3><div class="fragment"><div><img data-src="./imgs/logo-datadock_en.png"></div><img data-src="http://www.datadock.eu/templates/images/pic-umwelt.jpg"></div></section><section><div><img data-src="./imgs/logo-datadock_en.png"></div><div><img data-src="./imgs/datadock-facts-and-figures.png"></div><p><small>Fonte <a href="http://www.datadock.eu/en/umwelt.php">www.datadock.eu/en/umwelt.php</a></small></p></section><section><div><img data-src="./imgs/logo-datadock_en.png"></div><div><img data-src="./imgs/datadock-energy-savings-calculations.png" height="580"></div></section></section><section data-background="./imgs/data-servers.png"><section><h1>...where do you live?</h1><h3>in Germany (Europe)</h3><ul><li><span>Nearer than United States <i>&#10003;</i></span></li><li><span>"Our" laws <i>&#10003;</i></span></li><li><span>Better privacy protection from government <i>&#10003;</i></span></li></ul></section><section><img data-src="./imgs/microsoft-germany-datacenter.png"><p><small>Fonte <a href="http://www.thewhir.com/web-hosting-news/microsoft-considers-german-data-center-amid-us-attempt-access-eu-held-data">www.thewhir.com</a></small></p></section></section><section><section><h2>Come tratti i tuoi ospiti?</h2><img data-src="./imgs/commento-michele-vendita-dati.png"><p><small>Fonte <a href="https://socialbusinessworld.org/pages/view/59703/perche-iscriversi-a-socialbusinessworldorg-perche-unirsi-a-noi#.Vz1jCrOxVqg">socialbusinessworld.org</a></small></p></section><section data-transition="fade"><h2>privacy statement was...</h2><img data-src="./imgs/SBW-privacy-with-icons.png" width="80%"></section><section data-transition="fade"><h2>Now the privacy statement is</h2><img data-src="./imgs/SBW-privacy-with-icons-without-google-analytics.png" width="80%"></section></section><section data-transition="slide" data-background-transition="convex" data-background="imgs/bang.gif" class="force-bottom"><div class="background"><h2 class="white-black-shadow">we just started!</h2></div></section><section><h1>con quali strumenti?</h1><h2>which tools do you use?</h2></section><section><section><h2>the social network</h2><a href="https://elgg.org"><img src="./imgs/elgg no shadow.svg" class="x80"></a><p><small> <a href="elgg.org">elgg.org </a><span>"Elgg" and the Elgg logo are registered trademarks of Curverider Limited </span></small></p></section><section><h2>socialbusinessworld.org</h2><a href="https://socialbusinessworld.org"><img data-src="imgs/sbw-elgg-screenshot.png" class="x80"></a></section></section><section><section><h2>the shop</h2><a href="https://www.prestashop.com"><img data-src="imgs/1024px-PrestaShop_Logo_2015.png" class="x80"></a><p><small> <a href="htts://www.prestashop.com">prestashop.com</a></small></p></section><section><h2>shop.socialbusinessworld.org</h2><a href="https://shop.socialbusinessworld.org"><img data-src="imgs/sbw-prestashop-screenshot.png" class="x80"></a></section></section><section><h2>Pad real-time</h2><a href="http://etherpad.org"><img data-src="imgs/etherpad-screenshot.png" class="x80"></a><p><small> <a href="http://etherpad.org">etherpad.org</a></small></p></section><section><section><h2>data analytics</h2><a href="http://piwik.org"><img src="./imgs/piwik-pack/logo/piwik_logo.png" class="x80"></a><p><small> <a href="htts://piwik.org">piwik.org</a></small></p></section><section><h2>data analytics (2)</h2><a href="http://piwik.org"><img src="./imgs/piwik-pack/screenshots_general/dashboard.png" height="970" width="1024"></a></section></section><section><h2>CRM - gestione clienti </h2><a href="http://vtiger.org"><img data-src="imgs/vtiger.png" width="100%"></a><p><small> <a href="http://vtiger.org">vtiger.org</a></small></p></section><section><h2>sicurezza nelle comunicazioni</h2><a href="https://letsencrypt.org"><img data-src="imgs/lets-encrypt-logo.jpg"></a><p><small> <a href="http://letsencrypt.org">letsencrypt.org</a></small></p></section><section><h2>streaming</h2><a href="http://obsproject.com"><img data-src="imgs/OBSLogoNew80.png" width="250"></a><p><small> <a href="http://obsproject.com">obsproject.com</a></small></p></section><section><h2>Software di sistema</h2><ul><li>chi mostra il sito</li><li>chi smista la e-posta</li><li>chi raccoglie i dati</li></ul><div><img data-src="imgs/Apache.jpg" height="100"><img data-src="imgs/NGINX.jpg" height="100"><img data-src="imgs/postfix.png" height="100"><img data-src="imgs/mariadb-badge-180x60.png" height="100"></div></section><section><section><h2>Il sistema Debian GNU/Linux </h2><a href="http://debian.org"><img data-src="imgs/openlogo-nd.svg" class="x80"></a><p><small> <a href="http://debian.org">debian.org</a></small></p></section><section data-background="imgs/debconf15.jpg"><h1 class="wide">Debian non è solo un sistema </h1></section><section><h2>Debian e la comunità</h2><img data-src="imgs/sfida-debian-comunità-ian.jpg" height="400"></section><section><div><img data-src="imgs/pacchetti-facilitano-la-collaborazione.jpg" height="200"></div><img data-src="imgs/ian.jpg"></section></section><section><h2>Il cuore GNU/Linux </h2><a href="http://gnu.org"><img data-src="imgs/heckert_gnu.big.png" class="x80"></a><p><small> <a href="http://gnu.org">gnu.org</a></small></p></section><section><h2>La storia di Linux</h2><video data-autoplay data-src="la_storia_di_Linux_-_20_anniversario__audio_italiano_.mp4"></video></section><section data-transition="slide" data-background-transition="convex" data-background="imgs/forget.gif" class="force-bottom"><div class="background"><h2 class="white-black-shadow">Non si tratta solo di cosa fanno i tuoi strumenti!</h2></div></section><section data-transition="fade"><h2>come si comportano?</h2><h3>Software Libero per una società libera</h3></section><section data-background="imgs/from-odp/rms.png"><h2>nel 1984...</h2><br><p><i style="color:white;font-weight:bold">Tutto software libero, in modo che tutti gli utenti siano liberi.</i></p><p><i style="color:white;font-weight:bold">All software is free (as in knowledge) so all users are free.</i></p></section><section data-transition="fade" data-background="imgs/from-odp/freedom-1.png"><div class="background"><h2>Un software è libero se </h2><ol style="color:white;font-weight:bold;width:80%"><li><span>sei libero di usarlo per qualunque scopo </span></li></ol></div></section><section data-transition="fade" data-background="imgs/from-odp/freedom-2.jpg"><div class="background"><h2>Un software è libero se </h2><ol style="color:white;font-weight:bold;width:80%"><li><span>sei libero di usarlo per qualunque scopo </span></li><li><span>sei libero di studiarlo </span></li></ol></div></section><section data-transition="fade" data-background="imgs/from-odp/freedom-3.png"><div class="background"><h2>Un software è libero se </h2><ol style="color:white;font-weight:bold;width:80%"><li><span>sei libero di usarlo per qualunque scopo </span></li><li><span>sei libero di studiarlo </span></li><li><span>sei libero di modificarlo</span></li></ol></div></section><section data-background="imgs/from-odp/freedom-4.jpg"><div class="background"><h2>Un software è libero se <i>&#10003;</i></h2><ol style="color:white;font-weight:bold;width:80%"><li><span>sei libero di usarlo per qualunque scopo <i>&#10003;</i></span></li><li><span>sei libero di studiarlo <i>&#10003;</i></span></li><li><span>sei libero di modificarlo<i>&#10003;</i></span></li><li><span>sei libero di diffonderlo<i>&#10003;</i></span></li></ol></div></section><section data-background="./imgs/from-odp/matite.png"><div class="background"><h1>è una comunità che condivide</h1></div></section><section><h2>valori alla base</h2><ul><li class="fragment"><span>ecologia della conoscenza <i>&#10003;</i></span></li><li class="fragment"><span>collaborazione <i>&#10003;</i></span></li><li class="fragment"><span>equità <i>&#10003;</i></span></li><li class="fragment"><span>trasparenza <i>&#10003;</i></span></li><li class="fragment"><span>rispetto per le persone <i>&#10003;</i></span></li></ul></section><section data-background="./imgs/from-odp/screenshots/contrib.png" class="fullcover background-black"></section><section><h2>opportunità</h2><ul><li class="fragment"><span>no lock-in (no manette) <i>&#10003;</i></span></li><li class="fragment"><span>no virus <i>&#10003;</i></span></li><li class="fragment"><span>no costi di licenza <i>&#10003;</i></span></li></ul></section><section data-transition="slide" data-background-transition="convex" data-background="imgs/fantastic.gif" class="fullcover"></section><section><h1>ma...</h1></section><section data-transition="slide" data-background-transition="convex" data-background="imgs/omg.gif"><h2>vogliamo migliorare!</h2><br><h3 style="color:red">WARNING: Plesk software is not free!</h3></section><section data-background="imgs/from-odp/mani.png"><h1>what do you value?</h1><h3>join us and improve the software</h3></section><section data-transition="zoom"><h1>and at last, but not least...</h1></section><section data-background="imgs/michele.jpg" class="fullcover"><h1>thanks Michele</h1><h2>to believe</h2></section></div></div><script src="lib/js/head.min.js"></script>
+<script src="js/reveal.js"></script><script>// More info https://github.com/hakimel/reveal.js#configuration
+Reveal.initialize({
+    controls: true,
+    progress: true,
+    history: true,
+    center: true,
+
+    transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+    // More info https://github.com/hakimel/reveal.js#dependencies
+    dependencies: [
+        { src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+        { src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+        { src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+        { src: 'plugin/zoom-js/zoom.js', async: true },
+        { src: 'plugin/notes/notes.js', async: true }
+    ]
+});
+</script></body><body></body></html><html></html>
